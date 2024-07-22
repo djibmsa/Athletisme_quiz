@@ -100,7 +100,7 @@ function createQuestion(question) {
   questionId.innerText = "";
   questionDisplay.innerText = question;
   divDisplayUnicorn.src = "./assets/marathonienne.jpg";
-  divDisplayUnicorn.id = "pictureUnicornQuestion";
+  divDisplayUnicorn.id = "pictureMarathonienneQuestion";
   
   questionId.appendChild(divDisplayUnicorn);
   questionId.appendChild(questionDisplay);
